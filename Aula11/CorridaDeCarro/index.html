@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrida de carro</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="content">
+        <h1>
+            Corrida de carro!!!
+        </h1>
+        <br>
+        
+        <form id="corridaDeCarro">
+            <ul>
+                <li>
+                    <label for="carroA">🚗 Carro A: </label>
+                    <input type="number" id="carroA" name="carroA" required
+                    min="30">
+                </li>
+                <li>
+                <label for="carroB">🚙 Carro B: </label>
+                <input type="number" id="carroB" name="carroB" required
+                min="30">
+                </li>
+                <li>
+                    <button type="submit" id="resultado">Resultado da corrida!</button>
+                </li>
+            </ul>
+        </form>
+        <div id="mensagem"></div>
+    </div>
+    <footer>
+        <h3>©️ Leandro Stanger-2025</h3>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
