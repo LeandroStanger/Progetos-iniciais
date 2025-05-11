@@ -10,7 +10,7 @@ function verificarPresenca(nome, presencaAulaMusica, presencaAulaDanca, presenca
     } else if (contador === 2){
         return `Aluno presente em algumas atividades, boa participação!`;
     } else if (contador === 1){
-        retuen `Aluno presente em apenas uma atividade, precisa se envolver mais.`;
+        return `Aluno presente em apenas uma atividade, precisa se envolver mais.`;
     } else {
         return `Aluno ausente em todas as atividades.`;
     }
