@@ -1,5 +1,8 @@
-let frase = "  Eu estudo JS e gosto de JS  "; 
+let nomes = ["Ana", "Carlos", "João", "Lu"];
 
-let parte = frase.trim().replace(/JS/g, "JavaScript").split(" ").join("-");
+let todosMaisDe3Letras = nomes.every(nome => nome.length > 3);
 
-console.log(parte);
+let algumComecaComA = nomes.some(nomes => nomes[0] === "A");
+
+console.log("Todos têm mais de 3 letras?", todosMaisDe3Letras);
+console.log("Algum começa com 'A'?", algumComecaComA);
