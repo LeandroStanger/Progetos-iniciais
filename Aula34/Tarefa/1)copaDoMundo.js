@@ -16,3 +16,4 @@ let totalDeGols = jogadoresMaisDe5Gols.reduce((acumulador, valor2) => acumulador
 console.log(`Artilheiros: ${part}`);
 console.log(`Número de gols de cada: ${jogadoresMaisDe5Gols.map(x => x.gols)}`);
 console.log(`Total de gols dos artilheiros: ${totalDeGols}`);
+
